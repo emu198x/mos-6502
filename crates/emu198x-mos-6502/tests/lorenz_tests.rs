@@ -16,8 +16,8 @@ mod support;
 use std::fmt::Write as _;
 use std::fs;
 
-use mos_6502::M6502;
-use mos_6502::registers::FLAG_I;
+use emu198x_mos_6502::M6502;
+use emu198x_mos_6502::registers::FLAG_I;
 use support::{find_c64_kernal_rom, find_lorenz_6502_dir};
 
 const KERNAL_BASE: usize = 0xE000;

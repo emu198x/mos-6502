@@ -15,7 +15,7 @@ mod support;
 
 use std::path::Path;
 
-use mos_6502::M6502;
+use emu198x_mos_6502::M6502;
 use serde::Deserialize;
 use support::find_tom_harte_6502_dir;
 

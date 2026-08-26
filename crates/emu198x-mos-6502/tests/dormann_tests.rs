@@ -9,7 +9,7 @@ mod support;
 
 use std::path::{Path, PathBuf};
 
-use mos_6502::M6502;
+use emu198x_mos_6502::M6502;
 use support::find_dormann_6502_dir;
 
 const FUNCTIONAL_BIN: &str = "bin_files/6502_functional_test.bin";

@@ -47,7 +47,7 @@
 //!     -- --ignored --nocapture
 //! ```
 
-use mos_6502::M6502;
+use emu198x_mos_6502::M6502;
 
 /// blargg's `values` array — repeated twice so `values[y+1]` /
 /// `values[y+2]` indexing wraps without an explicit modulo.
